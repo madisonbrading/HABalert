@@ -33,3 +33,19 @@ export VAR_NAME_n=VAR_VALUE_n
 
 #### To reset environment variables:
 `source env.sh`
+
+# Environment Vars
+#### This is a list of all environment variables in the format `VARIABLE_NAME: PURPOSE`. Set these in `env.sh` with the format described in "Instructions for First-Time Setup"
+#### Contact arman@222.place or keyan@222.place to get set up with API keys, etc.
+##### Twilio
+- `TWILIO_PHONE_NUMBER`: The phone number used to send texts by code that calls twilio. Format: +19495554321
+- `TWILIO_ACCOUNT_SID`: Used in calls to Twilio for authentication
+- `TWILIO_AUTH_TOKEN`: Used in calls to Twilio for authentication
+##### Airtable
+- `AIRTABLE_APP_ID`: The app ID of the Airtable database. This is not a table ID, but rather the ID for the database to be used.
+- `AIRTABLE_KEY`: API key from Airtable used for authentication.
+##### Stripe
+- `STRIPE_KEY`: API key from Stripe used for authentication.
+##### Slack
+- `SLACK_BOT_TOKEN`: Used in calls to Slack for authentication
+- `CHANNEL_ID`: The channel which the slackbot sends messages to (we may split this into multiple keys for different channels)
