@@ -1,3 +1,10 @@
+//
+//  ReportSubmissionView.swift
+//  HABalert
+//
+//  Created by Madison Brading on 10/31/23.
+//
+
 import SwiftUI
 import CoreLocation
 import MapKit

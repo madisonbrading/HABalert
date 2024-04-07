@@ -2,9 +2,10 @@
 //  MapView.swift
 //  HABalert
 //
-//  Created by Madison Brading on 10/17/23.
+//  Created by Madison Brading on 3/31/24.
 //
 
+import Foundation
 import SwiftUI
 import MapKit
 import CoreLocation
@@ -65,5 +66,3 @@ struct MapView: View {
             return MapView(reports: .constant(sampleReports))
         }
     }
-
-

@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+
 class User: ObservableObject{
     @Published var firstName = "Bilbo"
     @Published var lastName = "Baggings"
@@ -24,7 +25,7 @@ struct ContentView: View {
     @State private var tapCount = 0
 
     //@StateObject var expense = Expenses()
-    
+       
     @State private var name = ""
     @State private var reports: [Report] = []
     @State private var location: String = "Sample Location"
@@ -33,21 +34,8 @@ struct ContentView: View {
     
     var body: some View {
         
-//        NavigationStack{
-//            Form {
-//                TextField("Enter name", text: $user.firstName)
-//                TextField("Enter name", text: $user.lastName)
-//
-//                Text("Your name is \(user.firstName) \(user.lastName)")
-//                Section{
-//                    Text("Hello, world!")
-//                }
-//            }
-//        .navigationTitle("home")
-//        }
-      
         TabView(selection: $selectedTab){
-           
+                   
             ReportSubmissionView()
                 .tabItem {
                     Label("Report", systemImage: "star")
@@ -63,11 +51,10 @@ struct ContentView: View {
                 }
                 .tag("News")
         }
-        .navigationTitle("Your App Title")
+        .navigationTitle("HABalert")
         .padding()
-        
+                
     }
-        
 }
 
 struct ContentView_Previews: PreviewProvider {
