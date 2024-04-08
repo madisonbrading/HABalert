@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B78C73012BC37C0200BD70BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78C73002BC37C0200BD70BD /* GoogleService-Info.plist */; };
 		B7C1C0112BBA0A9800C28397 /* HABalertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C0102BBA0A9800C28397 /* HABalertApp.swift */; };
 		B7C1C0132BBA0A9800C28397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C0122BBA0A9800C28397 /* ContentView.swift */; };
 		B7C1C0152BBA0A9A00C28397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C1C0142BBA0A9A00C28397 /* Assets.xcassets */; };
@@ -23,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B78C72FD2BC3773600BD70BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B78C73002BC37C0200BD70BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7C1C00D2BBA0A9800C28397 /* HABalert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HABalert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C1C0102BBA0A9800C28397 /* HABalertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HABalertApp.swift; sourceTree = "<group>"; };
 		B7C1C0122BBA0A9800C28397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		B7C1C0042BBA0A9800C28397 = {
 			isa = PBXGroup;
 			children = (
+				B78C73002BC37C0200BD70BD /* GoogleService-Info.plist */,
 				B7C1C00F2BBA0A9800C28397 /* HABalert */,
 				B7C1C00E2BBA0A9800C28397 /* Products */,
 				B7C1C0242BBA272D00C28397 /* Frameworks */,
@@ -80,7 +82,6 @@
 				B7C1C0312BBA2AC100C28397 /* Report.swift */,
 				B7C1C0332BBA2AE900C28397 /* ReportSubmissionView.swift */,
 				B7C1C0142BBA0A9A00C28397 /* Assets.xcassets */,
-				B78C72FD2BC3773600BD70BD /* GoogleService-Info.plist */,
 				B7C1C0162BBA0A9A00C28397 /* Preview Content */,
 			);
 			path = HABalert;
@@ -169,6 +170,7 @@
 			files = (
 				B7C1C0182BBA0A9A00C28397 /* Preview Assets.xcassets in Resources */,
 				B7C1C0152BBA0A9A00C28397 /* Assets.xcassets in Resources */,
+				B78C73012BC37C0200BD70BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
